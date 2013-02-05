@@ -1,0 +1,28 @@
+Scavenger Hunt Questions:
+
+1. How many files are in /usr/bin directory?
+147	
+Command used: $ ls -1 | wc -l
+
+
+2. Identify the server process with the highest memory usage.
+Whoopsie
+Command used: $ top [Shift + M]
+
+3. What is your server’s timezone?
+Eastern Standard Time
+Command used: sudo dpkg-reconfigure tzdata 
+
+4. How many default groups does your Ubuntu distribution have?
+56 (52 originally and 4 added by me)
+Command used: $ cat /etc/group
+
+
+5. Download, un-tar and execute the following PHP file (362.tar) from the command line on your server. What is the output? Bonus: Name the sequence!
+
+0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181
+
+The Fibonacci sequence.
+
+Command used: $ php /var/www/362.php
+
