@@ -1,8 +1,8 @@
 Scavenger Hunt Questions:
 
 1. How many files are in /usr/bin directory?
-147	
-Command used: $ ls -1 | wc -l
+581	
+Command used: :~$ ls -1 "/usr/bin" | wc -l
 
 
 2. Identify the server process with the highest memory usage.
@@ -12,6 +12,7 @@ Command used: $ top [Shift + M]
 3. What is your server’s timezone?
 Eastern Standard Time
 Command used: sudo dpkg-reconfigure tzdata 
+I used date first and it showed UTC, then I went ahead and changed the timezone to the local EST.
 
 4. How many default groups does your Ubuntu distribution have?
 56 (52 originally and 4 added by me)
